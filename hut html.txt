@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUT - Online Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .products, .blog, .faq {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .product, .post, .faq-item {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px;
+            width: 30%;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form input, .contact-form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to HUT</h1>
+    <p>Your one-stop shop for all products</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+    <a href="#faq">FAQ</a>
+    <a href="#blog">Blog</a>
+</nav>
+
+<section id="home">
+    <h2>Home</h2>
+    <p>Welcome to HUT! We offer a wide range of products to suit all your needs. Browse our categories and find what you are looking for.</p>
+</section>
+
+<section id="products">
+    <h2>Products</h2>
+    <div class="products">
+        <div class="product">
+            <h3>Product 1</h3>
+            <p>Description of product 1.</p>
+        </div>
+        <div class="product">
+            <h3>Product 2</h3>
+            <p>Description of product 2.</p>
+        </div>
+        <div class="product">
+            <h3>Product 3</h3>
+            <p>Description of product 3.</p>
+        </div>
+        <!-- Add more products as needed -->
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>HUT is a diverse online shop offering a wide variety of products to cater to all your needs. Our mission is to provide quality products at affordable prices, ensuring customer satisfaction at every step.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <form class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<section id="faq">
+    <h2>FAQ</h2>
+    <div class="faq">
+        <div class="faq-item">
+            <h3>Question 1</h3>
+            <p>Answer to question 1.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Question 2</h3>
+            <p>Answer to question 2.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Question 3</h3>
+            <p>Answer to question 3.</p>
+        </div>
+        <!-- Add more FAQs as needed -->
+    </div>
+</section>
+
+<section id="blog">
+    <h2>Blog</h2>
+    <div class="blog">
+        <div class="post">
+            <h3>Blog Post 1</h3>
+            <p>Content of blog post 1.</p>
+        </div>
+        <div class="post">
+            <h3>Blog Post 2</h3>
+            <p>Content of blog post 2.</p>
+        </div>
+        <div class="post">
+            <h3>Blog Post 3</h3>
+            <p>Content of blog post 3.</p>
+        </div>
+        <!-- Add more blog posts as needed -->
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 HUT. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
